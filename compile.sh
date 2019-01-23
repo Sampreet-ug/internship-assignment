@@ -1,6 +1,5 @@
 #!/bin/bash
 
-cd $HOME/my-app		
 mvn clean install -DskipTests
 
 if [ "$1" = "atom-agent" ]       #Module 1
