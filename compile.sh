@@ -1,5 +1,9 @@
 #!/bin/bash
+<<<<<<< HEAD
 
+=======
+	
+>>>>>>> 7e773d3956506d25f8f21bcdcdc5756a5717d858
 mvn clean install -DskipTests
 
 if [ "$1" = "atom-agent" ]       #Module 1
